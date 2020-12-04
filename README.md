@@ -92,7 +92,9 @@ methodVisitor.visitInsn(RETURN);
 methodVisitor.visitLabel(label1);
 ```
 
+```或者修改设置去掉行号```
 
+![avatar](https://raw.githubusercontent.com/liuhangb/ASMDemo/master/ASMPlugin.png)
 
 ```
 ASM常量NEW引用错误导致transformClassesWithDexBuilderForDebug ArrayIndexOutOfBoundsException
