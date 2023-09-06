@@ -1,2 +1,19 @@
+pluginManagement {
+    repositories {
+        maven {
+            url 'https://mvn.cloud.alipay.com/nexus/content/repositories/open/'
+            name 'alipay'
+        }
+    }
+}
 include ':app'
 rootProject.name = "ASMDemo"
+
+dependencyResolutionManagement {
+    repositories {
+        maven {
+            url 'https://mvn.cloud.alipay.com/nexus/content/repositories/open/'
+            name 'alipay'
+        }
+    }
+}
